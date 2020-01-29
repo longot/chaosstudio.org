@@ -1,0 +1,81 @@
+{
+	"meta": {
+		"image": "sprite_main.png",
+		"size": {"w":1742,"h":1284},
+		"scale": "1"
+	},
+	"frames": [
+		{
+			"filename": "vignette_1.png",
+			"frame": {"x":5,"y":5,"w":996,"h":208},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":996,"h":208},
+			"sourceSize": {"w":996,"h":208}
+		},
+		{
+			"filename": "avatar.png",
+			"frame": {"x":5,"y":223,"w":750,"h":754},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {"x":0,"y":0,"w":750,"h":754},
+			"sourceSize": {"w":754,"h":754}
+		},
+		{
+			"filename": "logo.png",
+			"frame": {"x":1011,"y":5,"w":726,"h":202},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":726,"h":202},
+			"sourceSize": {"w":726,"h":202}
+		},
+		{
+			"filename": "vignette_2.png",
+			"frame": {"x":1011,"y":217,"w":715,"h":219},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {"x":1,"y":2,"w":715,"h":219},
+			"sourceSize": {"w":716,"h":221}
+		},
+		{
+			"filename": "lenta.png",
+			"frame": {"x":1011,"y":446,"w":568,"h":112},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":568,"h":112},
+			"sourceSize": {"w":568,"h":112}
+		},
+		{
+			"filename": "button.png",
+			"frame": {"x":1011,"y":568,"w":487,"h":147},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":487,"h":147},
+			"sourceSize": {"w":487,"h":147}
+		},
+		{
+			"filename": "burst.png",
+			"frame": {"x":5,"y":987,"w":292,"h":292},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":292,"h":292},
+			"sourceSize": {"w":292,"h":292}
+		},
+		{
+			"filename": "close_button.png",
+			"frame": {"x":1508,"y":568,"w":116,"h":116},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":116,"h":116},
+			"sourceSize": {"w":116,"h":116}
+		},
+		{
+			"filename": "star.png",
+			"frame": {"x":1589,"y":446,"w":68,"h":64},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {"x":2,"y":6,"w":68,"h":64},
+			"sourceSize": {"w":75,"h":75}
+		}
+	]
+}

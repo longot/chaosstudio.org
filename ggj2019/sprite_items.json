@@ -1,0 +1,33 @@
+{
+	"meta": {
+		"image": "sprite_items.png",
+		"size": {"w":473,"h":335},
+		"scale": "1"
+	},
+	"frames": [
+		{
+			"filename": "item_1.png",
+			"frame": {"x":5,"y":5,"w":247,"h":157},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":247,"h":157},
+			"sourceSize": {"w":247,"h":157}
+		},
+		{
+			"filename": "item_2.png",
+			"frame": {"x":5,"y":172,"w":239,"h":158},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":239,"h":158},
+			"sourceSize": {"w":239,"h":158}
+		},
+		{
+			"filename": "item_3.png",
+			"frame": {"x":262,"y":5,"w":206,"h":150},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":206,"h":150},
+			"sourceSize": {"w":206,"h":150}
+		}
+	]
+}

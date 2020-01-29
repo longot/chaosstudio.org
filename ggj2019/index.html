@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Global Game Jam 2019</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <style type="text/css">
+    html {
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      /* background-color: rgba(0, 0, 0, 0); */
+    }
+    body {
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -ms-content-zooming: none;
+      -webkit-font-smoothing: antialiased;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    template {
+      display: none;
+    }
+    [hidden] {
+      display: none;
+    }
+    .fade {
+      display: block;
+      background-color: #000;
+      /* opacity: 0.65; */
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    #game {
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* visibility: hidden; */
+    }
+    #game .close {
+      z-index: 10;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 10%;
+      height: 14%;
+    }
+    #game canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    #game canvas {
+      image-rendering: optimizeSpeed;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -o-crisp-edges;
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="fade"></div>
+  <div id="game"></div>
+  <script type="text/javascript" src="vendor.js"></script>
+  <script type="text/javascript" src="phaser-debug.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

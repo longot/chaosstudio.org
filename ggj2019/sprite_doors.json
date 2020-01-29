@@ -1,0 +1,33 @@
+{
+	"meta": {
+		"image": "sprite_doors.png",
+		"size": {"w":102,"h":70},
+		"scale": "1"
+	},
+	"frames": [
+		{
+			"filename": "door_1.png",
+			"frame": {"x":5,"y":5,"w":32,"h":60},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":32,"h":60},
+			"sourceSize": {"w":32,"h":60}
+		},
+		{
+			"filename": "door_2.png",
+			"frame": {"x":47,"y":5,"w":25,"h":60},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {"x":0,"y":0,"w":25,"h":60},
+			"sourceSize": {"w":32,"h":60}
+		},
+		{
+			"filename": "door_3.png",
+			"frame": {"x":82,"y":5,"w":15,"h":60},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {"x":0,"y":0,"w":15,"h":60},
+			"sourceSize": {"w":32,"h":60}
+		}
+	]
+}
